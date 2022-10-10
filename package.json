@@ -1,6 +1,6 @@
 {
   "name": "ps2-codes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Cheat codes parsing and converting",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,8 @@
     "clean": "rm -rf ./package && rm -rf dist",
     "lint": "eslint 'src/**/*.ts' 'test/**/*.ts'",
     "test": "ts-mocha 'test/**/*.test.ts'",
-    "publish": "npm run build:clean && clean-publish --without-publish"
+    "prepublish": "npm run build:clean",
+    "publish": "clean-publish"
   },
   "keywords": [
     "ps2",
