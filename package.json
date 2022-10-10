@@ -1,17 +1,17 @@
 {
-  "name": "ps2-cheats",
-  "version": "1.0.0",
-  "description": "PS2 cheats parsing and converting",
-  "main": "index.js",
+  "name": "ps2-codes",
+  "version": "1.0.1",
+  "description": "Cheats parsing and converting",
   "scripts": {
     "build": "tsc && npm run prepare-dist",
     "prepare-dist": "rm -rf dist/test && cp -R dist/src/* dist/  && rm -rf dist/src",
     "lint": "eslint 'src/**/*.ts' 'test/**/*.ts'",
-    "test": "ts-mocha 'test/**/*.test.ts'"
+    "test": "ts-mocha 'test/**/*.test.ts'",
+    "deploy": "npm run build && npm publish --access=public"
   },
-  "keywords": ["ps2", "cheats", "data-processing"],
+  "keywords": ["ps2", "cheats"],
   "author": "mishamyrt",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "devDependencies": {
     "@types/expect": "^24.3.0",
     "@types/mocha": "^10.0.0",

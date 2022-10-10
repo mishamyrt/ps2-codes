@@ -1,4 +1,4 @@
-# PS2 Cheats [![Quality assurance](https://github.com/mishamyrt/ps2-cheats/actions/workflows/qa.yaml/badge.svg)](https://github.com/mishamyrt/ps2-cheats/actions/workflows/qa.yaml)
+# PS2 Codes [![Quality assurance](https://github.com/mishamyrt/ps2-codes/actions/workflows/qa.yaml/badge.svg)](https://github.com/mishamyrt/ps2-codes/actions/workflows/qa.yaml)
 
 Library for working with Playstation™ 2 cheat codes. Provides functions for reading cheat files and converting them to another available format.
 
@@ -7,7 +7,7 @@ Library for working with Playstation™ 2 cheat codes. Provides functions for re
 The library is available as an npm package. To install, run the command:
 
 ```sh
-npm install -s ps2-cheats
+npm install -s ps2-codes
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm install -s ps2-cheats
 To parse a file, call the `fromString` function on the values of the `formats` object.
 
 ```ts
-import { formats } from 'ps2-cheats'
+import { formats } from 'ps2-codes'
 import { readFile } from 'fs/promises'
 
 const content = await readFile('./input.raw', { encoding: 'utf8' })
@@ -32,7 +32,7 @@ console.log(cheats.length)
 To generate a file from an array of cheats, use the `toString` method.
 
 ```ts
-import { formats } from 'ps2-cheats'
+import { formats } from 'ps2-codes'
 import { writeFile, readFile } from 'fs/promises'
 
 const rawContent = await readFile('./input.raw', { encoding: 'utf8' })
@@ -48,7 +48,7 @@ await writeFile('./output.pnach', pnachContent)
 The library may try to determine the format of the input file itself. To do this, pass the content to the `assumeFormat` function.
 
 ```ts
-import { formats, assumeFormat } from 'ps2-cheats'
+import { formats, assumeFormat } from 'ps2-codes'
 
 const content = `
 //Infinite Health
