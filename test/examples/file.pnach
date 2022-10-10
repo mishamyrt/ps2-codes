@@ -1,0 +1,11 @@
+gametitle=Dragon Quest VIII: Journey of the Cursed King
+comment=Almar's Guides: How to Setup Codes on PCSX2
+
+Experience Times Two
+patch=1,EE,203609D4,extended,8FA2319C
+patch=1,EE,203609D8,extended,00021040
+
+Enemies Always Drop Items
+patch=1,EE,20296FB0,extended,9454004A
+patch=1,EE,20296FB4,extended,10000027
+patch=1,EE,20297058,extended,0280102D

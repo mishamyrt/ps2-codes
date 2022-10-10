@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "dist/",
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "$types": ["src/types"],
+      "$types/*": ["src/types/*"],
+      "$formats": ["src/formats"],
+    },
+  },
+  "include": ["src/**/*.ts", "test/**/*.ts"],
+}

@@ -1,0 +1,419 @@
+“Devil May Cry 3 Dante's Awakening Special Edition (2006) /ID_ SLUS_213.61”
+//Infinite Health
+20220E9C C6212AA8
+20220EA4 E6212AD4
+//Infinite Devil Trigger Usage
+2021ECA0 00000000
+//Max Infinite Devil Trigger
+20244EA0 C60128C8
+20244EB0 E60128C4
+//Dante Can Use Devil Trigger From The Start
+20244BB8 24020001
+20244BC0 A20228AF
+20244EC8 E60028C8
+205F2548 00220738
+//Gain 5000 Style EXP Each Time
+200C0230 3C01459C
+200C0234 44816000
+200C0238 080B849E
+200C023C 460C0000
+202E1274 0C03008C
+//Gain 1000 Style EXP Each Time
+//200C0230 3C01447A
+//200C0234 44816000
+//200C0238 080B849E
+//200C023C 460C0000
+//202E1274 0C03008C
+//Gain 500 Style EXP Each Time
+//200C0230 3C0143FA
+//200C0234 44816000
+//200C0238 080B849E
+//200C023C 460C0000
+//202E1274 0C03008C
+//Red Orbs Worth 1000
+//202F3918 340403E8
+//Red Orbs Worth 100
+//202F3918 34040064
+//Red Orbs Worth 50
+//202F3918 34040032
+//Red Orbs Worth 20
+//202F3918 34040014
+//Red Orbs Worth 10
+//202F3918 3404000A
+//Red Orbs Worth 5
+//202F3918 34040005
+//Red Orbs Worth 2
+//202F3918 34040002
+//Max Red Orbs
+2078EECC 000F423F
+//Buying Items Doesnt Decrease Red Orbs
+2045C31C 00000000
+//Buying Items Increases Red Orbs
+//2045C318 00431021
+//Buying Gun Enhancments Doesnt Decrease Red Orbs
+//204900B4 00000000
+//Buying Gun Enhancements Increases Red Orbs
+//204900B0 00651821
+//Have All Actions
+//4078EFC8 00080001
+//FFFFFFFF 00000000
+//P1 Press X For Moon Jump
+//200C0220 3C0141B8
+//200C0224 AE210064
+//200C0228 03E00008
+//200C022C C6200064
+//D0666482 0000BFFF
+//202E2610 0C030088
+//D0666482 0000FFFF
+//202E2610 C6200064
+//Infinite Double Jumps
+//2021E2F8 00000000
+//2021E300 00000000
+//Unlock All Extras
+//41D0DE20 00040001
+//FFFFFFFF 00000000
+//Mission Clear Codes
+//Low Time
+//2078EF3C 00000000
+//No Damage
+//2078EF40 00000000
+//Max Orbs
+//2078EF44 000F423F
+//No Items Used
+//2078EF48 00000000
+//Max Stylish PTS.
+//2078EFFC 4CBEBC20
+//Max Item Codes
+//Yellow Orbs
+//0078EED6 00000063
+//Blue Orbs
+//0078EED7 00000006
+//Purple Orbs
+//0078EED8 00000007
+//Vital Star L
+//0078EEE0 0000001E
+//Vital Star S
+//0078EEE1 0000001E
+//Devil Star
+//0078EEE2 0000000A
+//Holy Water
+//0078EEE3 0000001E
+//Have Devil Arms Codes
+//Rebellion
+//0078EEE6 00000001
+//Cerberus
+//0078EEE7 00000001
+//Agni & Rudra
+//0078EEE8 00000001
+//Nevan
+//0078EEEA 00000001
+//Beowulf
+//0078EEEB 00000001
+//All Devil Arms
+//1078EEE6 00000101
+//2078EEE8 01010101
+//Have Guns Codes
+//Ebony & Ivory
+//0078EEEC 00000001
+//Shotgun
+//0078EEED 00000001
+//Artemis
+//0078EEEE 00000001
+//Spiral
+//0078EEEF 00000001
+//Kalina Ann
+//0078EEF1 00000001
+//All Guns
+//2078EEEC 01010101
+//0078EEF1 00000001
+//Have Style Codes
+//Quicksilver
+//0078EEF2 00000001
+//Doppelganger
+//0078EEF3 00000001
+//All Styles
+//1078EEF2 00000101
+//Max Gun Upgrade Codes
+//Ebony & Ivory
+//0078EF5E 00000002
+//Shotgun
+//0078EF5F 00000002
+//Artemis
+//0078EF60 00000002
+//Spiral
+//0078EF61 00000002
+//Kalina Ann
+//0078EF62 00000002
+//All Guns
+//1078EF5E 00000202
+//1078EF60 00000202
+//0078EF62 00000002
+//Max Style EXP Codes
+//Swordmaster
+//2078EF7C 47C34F80
+//Gunslinger
+//2078EF80 47C34F80
+//Trickster/Dark Slayer
+//2078EF84 47C34F80
+//2078EFE8 47C34F80
+//Royalguard
+//2078EF88 47C34F80
+//All Styles
+//4078EF7C 00040001
+//47C34F80 00000000
+//2078EFE8 47C34F80
+//Have Mission Completed Codes
+//Easy Overall
+//01D0DD74 00000005
+//Easy Mission 1
+//01D0DD75 00000005
+//Easy Mission 2
+//01D0DD76 00000005
+//Easy Mission 3
+//01D0DD77 00000005
+//Easy Mission 4
+//01D0DD78 00000005
+//Easy Mission 5
+//01D0DD79 00000005
+//Easy Mission 6
+//01D0DD7A 00000005
+//Easy Mission 7
+//01D0DD7B 00000005
+//Easy Mission 8
+//01D0DD7C 00000005
+//Easy Mission 9
+//01D0DD7D 00000005
+//Easy Mission 10
+//01D0DD7E 00000005
+//Easy Mission 11
+//01D0DD7F 00000005
+//Easy Mission 12
+//01D0DD80 00000005
+//Easy Mission 13
+//01D0DD81 00000005
+//Easy Mission 14
+//01D0DD82 00000005
+//Easy Mission 15
+//01D0DD83 00000005
+//Easy Mission 16
+//01D0DD84 00000005
+//Easy Mission 17
+//01D0DD85 00000005
+//Easy Mission 18
+//01D0DD86 00000005
+//Easy Mission 19
+//01D0DD87 00000005
+//Easy Mission 20
+//01D0DD88 00000005
+//Normal Overall
+//01D0DD89 00000005
+//Normal Mission 1
+//01D0DD8A 00000005
+//Normal Mission 2
+//01D0DD8B 00000005
+//Normal Mission 3
+//01D0DD8C 00000005
+//Normal Mission 4
+//01D0DD8D 00000005
+//Normal Mission 5
+//01D0DD8E 00000005
+//Normal Mission 6
+//01D0DD8F 00000005
+//Normal Mission 7
+//01D0DD90 00000005
+//Normal Mission 8
+//01D0DD91 00000005
+//Normal Mission 9
+//01D0DD92 00000005
+//Normal Mission 10
+//01D0DD93 00000005
+//Normal Mission 11
+//01D0DD94 00000005
+//Normal Mission 12
+//01D0DD95 00000005
+//Normal Mission 13
+//01D0DD96 00000005
+//Normal Mission 14
+//01D0DD97 00000005
+//Normal Mission 15
+//01D0DD98 00000005
+//Normal Mission 16
+//01D0DD99 00000005
+//Normal Mission 17
+//01D0DD9A 00000005
+//Normal Mission 18
+//01D0DD9B 00000005
+//Normal Mission 19
+//01D0DD9C 00000005
+//Normal Mission 20
+//01D0DD9D 00000005
+//Hard Overall
+//01D0DD9E 00000005
+//Hard Mission 1
+//01D0DD9F 00000005
+//Hard Mission 2
+//01D0DDA0 00000005
+//Hard Mission 3
+//01D0DDA1 00000005
+//Hard Mission 4
+//01D0DDA2 00000005
+//Hard Mission 5
+//01D0DDA3 00000005
+//Hard Mission 6
+//01D0DDA4 00000005
+//Hard Mission 7
+//01D0DDA5 00000005
+//Hard Mission 8
+//01D0DDA6 00000005
+//Hard Mission 9
+//01D0DDA7 00000005
+//Hard Mission 10
+//01D0DDA8 00000005
+//Hard Mission 11
+//01D0DDA9 00000005
+//Hard Mission 12
+//01D0DDAA 00000005
+//Hard Mission 13
+//01D0DDAB 00000005
+//Hard Mission 14
+//01D0DDAC 00000005
+//Hard Mission 15
+//01D0DDAD 00000005
+//Hard Mission 16
+//01D0DDAE 00000005
+//Hard Mission 17
+//01D0DDAF 00000005
+//Hard Mission 18
+//01D0DDB0 00000005
+//Hard Mission 19
+//01D0DDB1 00000005
+//Hard Mission 20
+//01D0DDB2 00000005
+//Very Hard Overall
+//01D0DDB3 00000005
+//Very Hard Mission 1
+//01D0DDB4 00000005
+//Very Hard Mission 2
+//01D0DDB5 00000005
+//Very Hard Mission 3
+//01D0DDB6 00000005
+//Very Hard Mission 4
+//01D0DDB7 00000005
+//Very Hard Mission 5
+//01D0DDB8 00000005
+//Very Hard Mission 6
+//01D0DDB9 00000005
+//Very Hard Mission 7
+//01D0DDBA 00000005
+//Very Hard Mission 8
+//01D0DDBB 00000005
+//Very Hard Mission 9
+//01D0DDBC 00000005
+//Very Hard Mission 10
+//01D0DDBD 00000005
+//Very Hard Mission 11
+//01D0DDBE 00000005
+//Very Hard Mission 12
+//01D0DDBF 00000005
+//Very Hard Mission 13
+//01D0DDC0 00000005
+//Very Hard Mission 14
+//01D0DDC1 00000005
+//Very Hard Mission 15
+//01D0DDC2 00000005
+//Very Hard Mission 16
+//01D0DDC3 00000005
+//Very Hard Mission 17
+//01D0DDC4 00000005
+//Very Hard Mission 18
+//01D0DDC5 00000005
+//Very Hard Mission 19
+//01D0DDC6 00000005
+//Very Hard Mission 20
+//01D0DDC7 00000005
+//Dante Must Die Overall
+//01D0DDC8 00000005
+//Dante Must Die Mission 1
+//01D0DDC9 00000005
+//Dante Must Die Mission 2
+//01D0DDCA 00000005
+//Dante Must Die Mission 3
+//01D0DDCB 00000005
+//Dante Must Die Mission 4
+//01D0DDCC 00000005
+//Dante Must Die Mission 5
+//01D0DDCD 00000005
+//Dante Must Die Mission 6
+//01D0DDCE 00000005
+//Dante Must Die Mission 7
+//01D0DDCF 00000005
+//Dante Must Die Mission 8
+//01D0DDD0 00000005
+//Dante Must Die Mission 9
+//01D0DDD1 00000005
+//Dante Must Die Mission 10
+//01D0DDD2 00000005
+//Dante Must Die Mission 11
+//01D0DDD3 00000005
+//Dante Must Die Mission 12
+//01D0DDD4 00000005
+//Dante Must Die Mission 13
+//01D0DDD5 00000005
+//Dante Must Die Mission 14
+//01D0DDD6 00000005
+//Dante Must Die Mission 15
+//01D0DDD7 00000005
+//Dante Must Die Mission 16
+//01D0DDD8 00000005
+//Dante Must Die Mission 17
+//01D0DDD9 00000005
+//Dante Must Die Mission 18
+//01D0DDDA 00000005
+//Dante Must Die Mission 19
+//01D0DDDB 00000005
+//Dante Must Die Mission 20
+//01D0DDDC 00000005
+//Heaven Or Hell Mission 1
+//01D0DDDD 00000005
+//Heaven Or Hell Mission 2
+//01D0DDDE 00000005
+//Heaven Or Hell Mission 3
+//01D0DDDF 00000005
+//Heaven Or Hell Mission 4
+//01D0DDE0 00000005
+//Heaven Or Hell Mission 5
+//01D0DDE1 00000005
+//Heaven Or Hell Mission 6
+//01D0DDE2 00000005
+//Heaven Or Hell Mission 7
+//01D0DDE3 00000005
+//Heaven Or Hell Mission 8
+//01D0DDE4 00000005
+//Heaven Or Hell Mission 9
+//01D0DDE5 00000005
+//Heaven Or Hell Mission 10
+//01D0DDE6 00000005
+//Heaven Or Hell Mission 11
+//01D0DDE7 00000005
+//Heaven Or Hell Mission 12
+//01D0DDE8 00000005
+//Heaven Or Hell Mission 13
+//01D0DDE9 00000005
+//Heaven Or Hell Mission 14
+//01D0DDEA 00000005
+//Heaven Or Hell Mission 15
+//01D0DDEB 00000005
+//Heaven Or Hell Mission 16
+//01D0DDEC 00000005
+//Heaven Or Hell Mission 17
+//01D0DDED 00000005
+//Heaven Or Hell Mission 18
+//01D0DDEE 00000005
+//Heaven Or Hell Mission 19
+//01D0DDEF 00000005
+//Heaven Or Hell Mission 20
+//01D0DDF0 00000005
+//All Missions Completed
+//41D0DD74 001F0001
+//05050505 00000000
+//11D0DDF0 00000505
