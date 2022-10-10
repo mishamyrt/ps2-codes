@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc && npm run prepare-dist",
     "prepare-dist": "rm -rf dist/test && cp -R dist/src/* dist/  && rm -rf dist/src",
+    "lint": "eslint 'src/**/*.ts' 'test/**/*.ts'",
     "test": "ts-mocha 'test/**/*.test.ts'"
   },
   "keywords": ["ps2", "cheats", "data-processing"],
