@@ -1,23 +1,37 @@
 {
   "name": "ps2-codes",
-  "version": "1.0.1",
-  "description": "Cheats parsing and converting",
+  "version": "1.0.2",
+  "description": "Cheat codes parsing and converting",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "tsc && npm run prepare-dist",
-    "prepare-dist": "rm -rf dist/test && cp -R dist/src/* dist/  && rm -rf dist/src",
+    "build": "tsc",
+    "postbuild": "rm -rf dist/test && cp -R dist/src/* dist/  && rm -rf dist/src",
+    "build:clean": "npm run clean && npm run build",
+    "clean": "rm -rf ./package && rm -rf dist",
     "lint": "eslint 'src/**/*.ts' 'test/**/*.ts'",
     "test": "ts-mocha 'test/**/*.test.ts'",
-    "deploy": "npm run build && npm publish --access=public"
+    "publish": "npm run build:clean && clean-publish --without-publish"
   },
-  "keywords": ["ps2", "cheats"],
+  "keywords": [
+    "ps2",
+    "cheats",
+    "aethersx2",
+    "pcsx2"
+  ],
   "author": "mishamyrt",
   "license": "GPL-3.0",
+  "clean-publish": {
+    "files": ["src"],
+    "tempDir": "package",
+    "packageManager": "npm"
+  },
   "devDependencies": {
     "@types/expect": "^24.3.0",
     "@types/mocha": "^10.0.0",
     "@types/node": "^18.8.3",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
+    "clean-publish": "^4.0.1",
     "eslint": "^8.25.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
